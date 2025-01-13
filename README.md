@@ -10,7 +10,8 @@ This project is a simple web application that performs sentiment analysis on mov
 
 ## Screenshots!
 
-[Screenshot 2025-01-13 232227](https://github.com/user-attachments/assets/9450d445-23bc-4cf3-926d-d9ffc4ba58d7)
+![Screenshot 2025-01-13 232227](https://github.com/user-attachments/assets/1475a5b1-604d-4a23-a76f-261089333d0e)
+
 
 ## Installation
 
