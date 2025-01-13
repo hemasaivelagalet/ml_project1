@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentiment Analysis</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 50px;
+            text-align: center;
+        }
+        input, button {
+            padding: 10px;
+            margin: 10px;
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sentiment Analysis on Movie Reviews</h1>
+    <form method="POST" action="/predict">
+        <input type="text" name="review" placeholder="Enter a movie review" required>
+        <button type="submit">Analyze Sentiment</button>
+    </form>
+    {% if review %}
+        <h2>Review: {{ review }}</h2>
+        <h3>Sentiment: {{ prediction }}</h3>
+    {% endif %}
+</body>
+</html>
